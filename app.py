@@ -42,7 +42,7 @@ def main():
             st.pyplot()
 
         if 'Precision-Recall Curve' in metrics_list:
-            st.subheader("Precision-REcall Curve")
+            st.subheader("Precision-Recall Curve")
             plot_precision_recall_curve(model, x_test, y_test)
             st.pyplot()
 
